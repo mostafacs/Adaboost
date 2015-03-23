@@ -6,8 +6,8 @@ AdaBoost, short for "Adaptive Boosting", is a machine learning meta-algorithm. I
 
 # Implementation
 
-This Implementation is Optimized for very large DataSets . I prefer looping over training file lines instead of loading all file in memory so 
-it must work good with very large files
+I prefer looping over training file lines instead of loading all file in memory so 
+it must work good with very large files.
 First , Learning File must be in PSV ( Pipe Separated Values ). There is example file already exist in resources/trainingSamples.psv
 Last Column work as entity Class Type  must be { 1 , -1 } "currently support binary classification only"
 
